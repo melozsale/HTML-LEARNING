@@ -1,21 +1,37 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(31, 164, 182);
 }
 p.thick {
-    font-weight: bold;
+    font-weight: bolder;
+    color: orange;
 }
 h1 {
     color: white;
     text-align: center;
+    font-size: 50px
 }
 h1 {
     font-size: 40px;
 }
+h2 {font-family: arial;
+font-size:16px;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+}
 
 p {
     font-family: verdana;
-    font-size: 18px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 p.normal {
     font-style: normal;
 }
+address {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 14px
+ }
