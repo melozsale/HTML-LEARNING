@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(31, 164, 182);
+}
+p.thick {
+    font-weight: bolder;
+    color: orange;
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+	padding-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+font-size:18px;
+}
+ul {
+	font-family: 'Lato', sans-serif;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+p.normal {
+    font-style: normal;
+}
+address {
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	text-decoration: underline;
+	font-size: 14px
+
+ }
