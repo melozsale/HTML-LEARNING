@@ -6,6 +6,12 @@ body {
      margin: 80px;
     padding: 50px;
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    
 }
 
 header {
@@ -15,6 +21,8 @@ header {
 
 nav {
     display: block;
+    max-width: 100%;
+     min-width: 12em;
     padding: 0px;
     font-family: 'Maven Pro', sans-serif;
 }
@@ -22,38 +30,51 @@ nav {
 aside {
     padding: 50px;
   font-family: 'Maven Pro', sans-serif;
-   font-size: 20px;
+  max-width: 50%; 
+  min-width: 12em;
+   font-size: 1.2em;
 }
+
 article {
     padding: 50px;
    font-family: 'Maven Pro', sans-serif;
-   font-size: 20px;
+   font-size: 1.2em;
+    min-width: 12em;
 }
 
 footer {
 
     padding: 60px;
    font-family: 'Maven Pro', sans-serif;
+    min-width: 12em;
 }
 
 div {
     padding: 00px;
+    width: 100%;
 }
 
 section {
     padding: 2px;
    font-family: 'Maven Pro', sans-serif;
-    font-size: 20px;
+    font-size: 1.2em;
 
 }
+
 
 h1 {
 	font-family: 'Roboto', sans-serif;
+     min-width: 12em;
 }
+
+p {
+  min-width: 12em;
+  }
 
 #two_column {
     border: 1px black solid;
     padding: 20px;
+     min-width: 12em;
 }
 
 #left {
@@ -90,7 +111,8 @@ h1 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2em;
+
 }
 
 .topnav a:hover {
@@ -104,9 +126,20 @@ h1 {
 
 }
 
-.wrapper {
-  width: 100%;
-  max-width: 20em;
+  section, div {
+    width: 100%;
+    padding: .6em;
   }
+
+  #viewport{
+    zoom: 1.0;
+    user-zoom:fixed;
+    width: device-width;
+     min-width: 12em;
+}
+
+
+
+
 
 
