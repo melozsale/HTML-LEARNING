@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Exo:200,500,800');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
 
 body {
     background-color: #FFFFFF;
@@ -15,7 +17,7 @@ img {
 
 header {
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+font-family: 'Exo 200', sans-serif;
 }
 
 nav {
@@ -23,28 +25,28 @@ nav {
     max-width: 100%;
      min-width: 12em;
     padding: 0px;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Exo 200', sans-serif;
 }
 
 aside {
     padding: 50px;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Exo 200', sans-serif;
   max-width: 50%; 
   min-width: 12em;
-   font-size: 1.2em;
+   font-size: 2em;
 }
 
 article {
     padding: 50px;
-   font-family: 'Maven Pro', sans-serif;
-   font-size: 1.2em;
+   font-family: 'Exo 200', sans-serif;
+   font-size: 2em;
     min-width: 12em;
 }
 
 footer {
 
     padding: 60px;
-   font-family: 'Maven Pro', sans-serif;
+   font-family: 'Exo 200', sans-serif;
     min-width: 12em;
 }
 
@@ -62,13 +64,18 @@ section {
 
 
 h1 {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Exo 200', sans-serif;
      min-width: 12em;
+
 }
 
-p {
-  min-width: 12em;
-  }
+h3 {
+    font-family: 'Exo 200', sans-serif;
+     min-width: 12em;
+     font-size: 2em;
+}
+
+
 
 #two_column {
     border: 1px black solid;
@@ -108,9 +115,11 @@ p {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
+    width:100%;
+
 
 }
 
@@ -136,6 +145,8 @@ p {
     width: device-width;
      min-width: 12em;
 }
+
+
 
 
 
